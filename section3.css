@@ -52,12 +52,11 @@
     grid-template-columns: 1fr;
   }
 
-  #sidebar.sidebar {
-    width: 100%;
-    gap: 20px;
-    padding: 0% !important;
+  
+  .social-icons{
+    margin-inline-start: 21%;
+    margin-top: 6%;
   }
-
   .info {
     display: flex;
     justify-content: center;
@@ -94,13 +93,7 @@
     width: 11rem !important;
   }
 
-  .footer {
-    position: absolute;
-    bottom: 0%;
-    left: 0%;
-    width: 100%;
-    z-index: 999;
-  }
+
   .section3 h1 {
     margin-bottom: 0% !important;
   }

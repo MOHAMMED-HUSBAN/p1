@@ -1,76 +1,63 @@
 body {
   background: rgb(61, 60, 60);
-  line-height: 1.6;
-  margin: 0;
-  padding: 0;
-  overflow-x: hidden;
-  display: grid;
-  grid-template-columns: 1fr 3fr;
-  height: 100vh;
+  margin: 0;                      /* space outside the border*/
+  padding: 0;                      /* space inside the border*/
+  overflow-x: hidden;              /* hide x line contanet*/           
+  display: grid;                   /*2d*/
+  grid-template-columns: 2fr;
+  height: 100vh;                    /*to all site*/
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
-.sidebar {
-  width: 20rem;
-  background: #0e0d0d;
-  color: white;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-}
 
-div.col {
-  padding-top: 71%;
+.contanier {
+  background-color: #1eecec ;
+  color: white;  
+  position: fixed;      
+  z-index: 999;
+  width: 100%;  
+  height: 3rem;   
 }
 
 .info {
-  justify-content: space-between;
-  width: 100%;
-  font-size: 18px;
-  text-align: center;
+  font-size: 15px; 
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 15px;
 }
 
-.sidebar .info a {
+.contanier .info a {
   color: #f4f7f7;
-  text-decoration: none;
 }
+.section4 h1{
 
-.info .row {
+margin-bottom: 10%;
+}
+.section4{
+  text-align: center;
+  height: 44rem;
+  background: rgb(61, 60, 60);
   position: relative;
-  color: #1eecec;
-  width: 10rem;
-  height: 40px;
-  background: transparent;
-  border: 2px solid #f4f7f7;
-  border-radius: 1.1rem;
-  z-index: 1;
-  overflow: hidden;
-  transition: 2s;
-  align-items: center;
-  margin-left: 14%;
-}
-.info .row:hover {
-  color: #040404;
-}
-
-.info .row::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 0;
-  height: 100%;
-  background: #1eecec;
-  z-index: -1;
-  transition: 1s;
-}
-.info .row:hover::before {
-  width: 100%;
-}
-
-.content {
   display: grid;
-  grid-template-rows: auto auto auto;
-
-  overflow-y: auto;
+  color: rgb(252, 252, 252);
+ 
 }
+.section4 .row{
+  color: rgb(0, 0, 0);
+  text-align: center;
+  }
+  .section4 .card{
+   border-radius: 35%;
+   margin-bottom: 20%;
+   margin-left: 15%;
+   margin-right: 15%;
+    }
+.footer{
+  width: 100%;
+  justify-content: center;
+
+}
+
+
+

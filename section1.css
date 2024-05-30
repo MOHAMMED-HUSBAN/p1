@@ -1,7 +1,6 @@
 .section1 {
   height: 44rem;
-  position: relative;
-  display: grid;
+  position: relative; 
   background: rgb(61, 60, 60);
   align-content: center;
 }
@@ -29,7 +28,7 @@
 
 .section1-content h1::before {
   content: "";
-  position: absolute;
+  position: absolute;       /*No space is reserved for it*/
   top: 0;
   right: 0;
   width: 100%;
@@ -41,7 +40,7 @@
 
 .section1-content h3::before {
   content: "";
-  position: absolute;
+  position: absolute;             /*No space is reserved for it*/
   top: 0;
   right: 0;
   width: 100%;
@@ -53,7 +52,7 @@
 
 .section1-content p::before {
   content: "";
-  position: absolute;
+  position: absolute;                    /*No space is reserved for it*/
   top: 0;
   right: 0;
   width: 100%;
@@ -64,7 +63,7 @@
 }
 
 .social-icons {
-  justify-content: space-between;
+  justify-content: space-between;      /*horezantal --*/
   width: 140px;
   font-size: 25px;
   margin-inline-start: 60%;
