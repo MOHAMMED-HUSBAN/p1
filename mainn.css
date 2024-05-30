@@ -1,11 +1,9 @@
 body {
-  background: rgb(61, 60, 60);
+  
   margin: 0;                      /* space outside the border*/
   padding: 0;                      /* space inside the border*/
   overflow-x: hidden;              /* hide x line contanet*/           
   display: grid;                   /*2d*/
-  grid-template-columns: 2fr;
-  height: 100vh;                    /*to all site*/
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
